@@ -1,7 +1,16 @@
-#!/usr/bin/env bash
-mkdir -p dir/subdir
-cd dir/subdir && touch data.csv
+#Basic find fomat file
 find . -name "*.sh"
-find . -name "*.csv"
-find . perm /+x ! -name '.*' -type f
-find . perm /+x -not -path '*/\.*' -type f
+find . -name "*.png"
+find . -name "*.zip"
+
+#Basic find all file
+find . -name "*.*"
+find . -type f -print
+#Basic find empty file
+find . -type f -empty
+
+#Basic fine specific in file
+find /workspaces/BuildingBashScript/2_Manipulate_data -type f
+
+#Basic fine specific in folder
+find /workspaces/BuildingBashScript/2_Manipulate_data -type d
