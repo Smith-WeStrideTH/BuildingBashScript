@@ -6,6 +6,7 @@ find . -name "*.zip"
 #Basic find all file
 find . -name "*.*"
 find . -type f -print
+
 #Basic find empty file
 find . -type f -empty
 

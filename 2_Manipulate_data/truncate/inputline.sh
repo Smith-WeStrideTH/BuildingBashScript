@@ -61,11 +61,11 @@
 # echo "array of SNos  : ${arr_record1[@]}"
 # echo "array of Qty   : ${arr_record2[@]}"
 # echo "array of Price : ${arr_record3[@]}"
-# echo "array of Value : ${arr_record4[@]}
+# echo "array of Value : ${arr_record4[@]}"
 
 #-------------------------------------------------#
 #5. Parsing CSV File Into a Bash Array
-#! /bin/bash 
+# #! /bin/bash 
 # arr_csv=() 
 # while IFS= read -r line 
 # do

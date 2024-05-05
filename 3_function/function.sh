@@ -11,7 +11,7 @@ mimic 1 2
 # 	result=$((num1 + num2))
 # 	echo $result
 # }
-# add 1 2
+# # add 1 2
 
 # output=$(add 5 9)
 # echo $output
