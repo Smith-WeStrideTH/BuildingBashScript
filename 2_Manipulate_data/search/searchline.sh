@@ -17,11 +17,12 @@ find . -perm /+x ! -name '.*' -type f
 #find and delete
 find . -name "*.png" -delete
 
-#find word count
+#find and word count
 find . -name "*.csv" -type f -exec wc -c "{}" \; #{} each filename  \ escaped ; indicate the end of the parameter
 find . -name "*.csv" -type f -exec wc -c "{}" \+ # sum wc 
 find . -name "*.csv" -type f -print0 | xargs -0 wc
 
-
+#find and chmod
+find . -name "*.sh" -exec chmod +x '{}' \;
 
 
